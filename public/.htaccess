@@ -1,0 +1,16 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# Redirect all requests to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
+
+# Set the default timezone
+SetEnv TZ Africa/Lagos
+
+# Deny access to .htaccess file itself
+<Files .htaccess>
+    Order allow,deny
+    Deny from all
+</Files>

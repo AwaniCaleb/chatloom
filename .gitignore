@@ -1,0 +1,28 @@
+# Ignore logs directory
+/logs/
+
+# Ignore user-uploaded files
+/public/uploads/
+
+# Ignore sensitive configuration files
+/config/
+
+# Ignore environment files if used
+.env
+
+# Ignore Composer vendor directory
+/vendor/
+
+# Ignore OS-specific and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Ignore log files
+*.log
+
+# Node packages
+/node_modules/

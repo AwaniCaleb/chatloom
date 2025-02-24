@@ -1,0 +1,39 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Exclude logs directory
+/logs/
+
+# Exclude user-uploaded media
+/public/uploads/
+
+# Exclude sensitive configuration files
+/config/database.php
+
+# Exclude environment files (if used)
+/.env
+
+# Exclude vendor directory (if using Composer)
+/vendor/
+
+# Exclude log files
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Binary files
+*.jpg binary
+*.png binary
+*.gif binary
+*.pdf binary
+*.zip binary
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Backup files
+*.bak
+*.tmp
